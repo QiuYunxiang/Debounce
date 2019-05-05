@@ -13,6 +13,7 @@
 		4194E8F1227E6FF300D309A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4194E8F0227E6FF300D309A2 /* Assets.xcassets */; };
 		4194E8F4227E6FF300D309A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4194E8F2227E6FF300D309A2 /* LaunchScreen.storyboard */; };
 		4194E8F7227E6FF300D309A2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4194E8F6227E6FF300D309A2 /* main.m */; };
+		4194E8FF227E706800D309A2 /* DebounceFunctionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4194E8FE227E706800D309A2 /* DebounceFunctionManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		4194E8F3227E6FF300D309A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4194E8F5227E6FF300D309A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4194E8F6227E6FF300D309A2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4194E8FD227E706800D309A2 /* DebounceFunctionManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DebounceFunctionManager.h; sourceTree = "<group>"; };
+		4194E8FE227E706800D309A2 /* DebounceFunctionManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DebounceFunctionManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				4194E8E8227E6FF100D309A2 /* AppDelegate.m */,
 				4194E8EA227E6FF100D309A2 /* ViewController.h */,
 				4194E8EB227E6FF100D309A2 /* ViewController.m */,
+				4194E8FD227E706800D309A2 /* DebounceFunctionManager.h */,
+				4194E8FE227E706800D309A2 /* DebounceFunctionManager.m */,
 				4194E8ED227E6FF100D309A2 /* Main.storyboard */,
 				4194E8F0227E6FF300D309A2 /* Assets.xcassets */,
 				4194E8F2227E6FF300D309A2 /* LaunchScreen.storyboard */,
@@ -143,6 +148,7 @@
 			files = (
 				4194E8EC227E6FF100D309A2 /* ViewController.m in Sources */,
 				4194E8F7227E6FF300D309A2 /* main.m in Sources */,
+				4194E8FF227E706800D309A2 /* DebounceFunctionManager.m in Sources */,
 				4194E8E9227E6FF100D309A2 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,6 +294,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4QGE9G28H2;
 				INFOPLIST_FILE = Debounce/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,6 +312,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4QGE9G28H2;
 				INFOPLIST_FILE = Debounce/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
